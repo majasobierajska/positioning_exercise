@@ -1,0 +1,45 @@
+body
+{
+    margin: 40px;
+
+
+}
+.position-first
+{
+    position: relative;
+}
+.rigid
+{
+    height: 200px;
+    width: auto;
+    position: relative;
+    z-index: -1;
+    
+}
+.adapted
+{
+    height: 120px;
+    width: auto;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 300px;
+}
+.position-second
+{
+    position: relative;
+}
+
+.inflexible
+{
+    position: relative;
+    top: 300px;
+    left:500px;
+}
+.adjust
+{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+
+}
